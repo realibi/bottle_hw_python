@@ -1,0 +1,15 @@
+<ul>
+    % for post in posts:
+    <li>
+        <h3>{{post.title}}</h3>
+        <h5>{{post.body}}</h5>
+    </li>
+    % end
+</ul>  
+
+<br>
+
+<a href="/createPost">Создать новый пост</a><br>
+<a href="/signin">Зарегистрировать нового юзера</a><br>
+<a href="/users">Список зарегистрированных юзеров</a><br>
+<a href="/blog">Список постов</a><br>
